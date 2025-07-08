@@ -75,12 +75,12 @@ function btnPress(){
 
     checkAns((userSeq.length) - 1);
 }
-
+// clicking done 
 let allbtns = document.querySelectorAll(".btn");
 for(btn of allbtns) {
     btn.addEventListener("click", btnPress);
 }
-
+// as in next level the game is start as to sharp ur memory
 function reset(){
     started = false;
     gameSeq = [];
